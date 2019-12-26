@@ -1,0 +1,31 @@
+.formulario{
+  margin-top: 100px;
+   padding: 100px;
+  /* text-align: center; */
+   /* margin-right:10px;
+   margin-left: 50px; */
+  background-color: #f0f0f0;
+  display: flex;
+  border:1px, solid, black;
+}
+input{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius:15px;
+  padding: 15px;
+  width: 300px; 
+}
+textarea{
+  border-radius: 15px;
+  /* margin-right: 60px; */
+  margin-left: 15px;
+}
+input.btn{
+  background-color: #00242c;
+  margin-top: 30px;
+  width: 100px;
+  padding: 8px;
+  border-radius:8px;
+  color :white;
+  float: right;
+}
