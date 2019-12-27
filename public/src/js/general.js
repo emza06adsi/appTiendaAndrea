@@ -1,1 +1,1 @@
-    
+firebase.initializeApp(firebaseConfig);
