@@ -9,9 +9,16 @@ var muro=`<section class="home" id="home">
     <div class="sidebarPlaylist">
       <h2 class="sidebarPlaylist-title">paginas de usuarios</h2>
       <ol class="myPlaylist">
-        <li class="myPlaylist-item">
-          <a href="index.html">
-            <span>
+      <li class="myPlaylist-item">
+          <a href="ingresar.html">
+            <spafn>
+              Ingresar colaborador
+            </span>
+          </a>
+        </li>  
+      <li class="myPlaylist-item">
+          <a href="ingreso.html">
+            <spafn>
               Ingresar productos
             </span>
           </a>
