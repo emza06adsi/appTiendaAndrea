@@ -2,13 +2,13 @@
   text-align: center;
   /* padding: .6em .8em .8em; */
   border: none;
-  color:whitesmoke;
+  color:#00242c;
   font-size: 35px;
   -webkit-mask-size: 100px;
   padding:15px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background:#33dae3;
+  padding-left: 35px;
+  padding-right: 35px;
+  background:#c6f9fb;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;

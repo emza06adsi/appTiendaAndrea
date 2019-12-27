@@ -11,19 +11,27 @@
 </head>
 <body>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.6.1/firebase-app.js"></script>
+<!-- <script src="/__/firebase/7.6.1/firebase-app.js"></script> -->
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
+<!--  <script src="/__/firebase/7.6.1/firebase-analytics.js"></script> --> 
 
 <!-- Initialize Firebase -->
 <script src="/__/firebase/init.js"></script>
    <div class="overlay" id="overlay">
   </div>
+  
   <div class="modal" id="modal">
-    <h1>INICIO DE SECION CON GOOGLE</h1>
-    <div class="modal-buttons">
+    <h1>INICIO DE SECION </h1>
+  
+    <form action="" method="post">
+    <!-- <input type="text" name="" id=""> -->
+    <input type="email" placeholder="correo" name="" id="">
+    <input type="password" placeholder="contraseña" name="" id="">
+  </form>
+    <div class="modal-buttons" style="display:flexbox;">
+      <button class="modal-btn " id="hide-modal">INGRESAR</button>
       <button class="modal-btn " id="hide-modal">GOOGLE</button>
     </div>
   </div>
