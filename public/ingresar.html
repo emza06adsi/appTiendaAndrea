@@ -9,16 +9,19 @@
         <link rel="stylesheet" href="src/css/modal.css" />
         <link rel="stylesheet" href="src/css/estilosDormulario.css">
         <!-- script -->
-        <script src="src/js/configuracion/configuracion.js"></script>
+
         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
-        <script src="src/js/autenticacion/autenticar.js"></script>
         <script src="src/js/general.js"></script>
+        
+        <script src="src/js/autenticacion/Autenticar.js"></script>
+        
+        <script src="src/js/autenticacion/controladorAutenticar.js"></script>
         <!-- script -->
-    
+
     </head>
     <body>
-        <section class="home" id="home">
+        <section class="home" id="homeIngresar">
             <!-- muro de cosas por trabajar -->
             <div id="muro"></div>
             <div class="home-primary">
@@ -28,12 +31,14 @@
                 <div class="primary-list">
                     <section class="formulario">
                         <div class="input">
-                            <input type="text" placeholder="nombre">
-                            <input type="email" name="" id="" placeholder="correo electronico">
+                            <input type="text" value="" id="nombre"placeholder="nombre">
+                            <input type="email" value="" id="email" name="" id=""
+                                placeholder="correo electronico">
                         </div>
                         <div class="_input">
-                            <input type="password" placeholder="password" >
-                            <input type="submit" placeholder="ingresar datos" value="ingresar" class="btn">
+                            <input type="password" value="" id="password" placeholder="password">
+                            <input type="button" onclick="ingresar()"  value="ingresar" class="btn">
+                            <!-- <button onclick="ingresar()"></button> -->
                         </div>
                     </section>
                 </div>
