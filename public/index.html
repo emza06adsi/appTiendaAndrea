@@ -10,8 +10,8 @@
 
     <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
-    <script src="general.js"></script>
-    <script src="autenticar.js"></script>
+    <script src="src/js/general.js"></script>
+    <!-- <script src="autenticar.js"></script> -->
     <title>tienda la andrea</title>
   </head>
   <body>
@@ -31,13 +31,11 @@
 
       <form action="" method="post">
         <!-- <input type="text" name="" id=""> -->
-        <input type="email" placeholder="correo" name="" id="">
-        <input type="password" placeholder="contraseña" name="" id="">
+        <input type="email" value="" placeholder="correo" name="" id="correoI">
+        <input type="password" value="" placeholder="contraseña" name="contraseñaI" id="contraseñaI">
       </form>
-      <div class="modal-buttons" style="display:flexbox;"><a href="ingresar.html">
-        <button class="modal-btn"id="btnIngresar">INGRESAR</button>
-       
-      </a>
+      <div class="modal-buttons" style="display:flexbox;">
+        <button class="modal-btn" onclick="usuarioIng()" id="btnIngresar">INGRESAR</button>
         <button class="modal-btn"id="btnIngresar-modal">GOOGLE</button>
       </div>
     </div>
