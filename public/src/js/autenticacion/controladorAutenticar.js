@@ -7,7 +7,7 @@ let autenticar = new Autenticar();
 function ingresar()
 {
     console.log(autenticar)
-    console.log(autenticar.ingresarUsuario('esteban','estebanmezabetancur@gmail.com','789456'))
+    console.log(autenticar.ingresarUsuario('esteban','estebanmezabetancur@gmail.com','Ñ789456'))
 //     let $nombre =document.getElementById('nombre').value
 //     let $email=document.getElementById('email').value
 //     let $password=document.getElementById('password').value

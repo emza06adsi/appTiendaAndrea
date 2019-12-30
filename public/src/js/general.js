@@ -9,4 +9,4 @@ const firebaseConfig = {
 mentId: "G-NCFTQREQQH"
   };
 
-let firebase= firebase.initializeApp(firebaseConfig);
+ firebase.initializeApp(firebaseConfig);
