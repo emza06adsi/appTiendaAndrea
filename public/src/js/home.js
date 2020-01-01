@@ -47,21 +47,24 @@ form=`<form action="" class="search" id="form">
 </form>`
 document.getElementById('form').innerHTML=form;
 
-users=`<div class="user">
-<p>
-  <img src="src/images/covers/gorillaz.jpg" alt=""/>
-  <span>Meza Esteban</span>
-</p>
-</div>
-`;
-document.getElementById('users').innerHTML=users
+
 
 footer=``;
 document.getElementById('footer').innerHTML=footer
 
 
 
+function fotoImg(img) {
+  users=`<div class="user">
+<p>
+  <img src="${img}" alt=""/>
+  <span>Meza Esteban</span>
+</p>
+</div>
+`;
+document.getElementById('users').innerHTML=users
 
+}
 
 
 

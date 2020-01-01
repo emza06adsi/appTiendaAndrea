@@ -10,7 +10,10 @@
 
     <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script src="src/js/configuracion/configuracion.js"></script>
     <script src="src/js/general.js"></script>
+   <script src="src/js/autenticacion/autenticar.js"></script>
+    <script src="src/js/home.js"></script>
     <!-- <script src="autenticar.js"></script> -->
     <title>tienda la andrea</title>
   </head>
@@ -22,7 +25,6 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <!--  <script src="/__/firebase/7.6.1/firebase-analytics.js"></script> -->
     <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
     <div class="overlay" id="overlay">
     </div>
 
@@ -36,7 +38,7 @@
       </form>
       <div class="modal-buttons" style="display:flexbox;">
         <button class="modal-btn" onclick="usuarioIng()" id="btnIngresar">INGRESAR</button>
-        <button class="modal-btn"id="btnIngresar-modal">GOOGLE</button>
+        <button class="modal-btn" onclick="authGoogle()" id="btnIngresar-modal">GOOGLE</button>
       </div>
     </div>
 
