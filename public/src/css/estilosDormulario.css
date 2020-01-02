@@ -9,16 +9,16 @@
   border:1px, solid, black;
 }
 input{
-  margin-left: 15px;
+  margin-left: 20%;
   margin-bottom: 10px;
   border-radius:15px;
   padding: 15px;
-  width: 300px; 
+  width: 90%; 
 }
 textarea{
   border-radius: 15px;
   /* margin-right: 60px; */
-  margin-left: 15px;
+  margin-left: 15%;
 }
 input.btn{
   background-color: #00242c;
@@ -28,4 +28,16 @@ input.btn{
   border-radius:8px;
   color :white;
   float: right;
+}
+
+.input{
+/* margin-left:5% ; */
+margin-right: 5%;
+}
+
+.inputIngreso{
+  width: 80%;
+  padding: 5%;
+  padding-right:20% ;
+  margin-left: initial;
 }
